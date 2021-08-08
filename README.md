@@ -4,6 +4,7 @@ Install packages
 
 ```
 npm i
+cd front && npm i
 ```
 
 Start Api
