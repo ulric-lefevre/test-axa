@@ -1,0 +1,37 @@
+.scroll-table {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  overflow-x: scroll;
+  margin-bottom: 20px;
+}
+
+table {
+  border-spacing: 0;
+  border: 1px solid white;
+  font-size: 0.4em;
+
+  tr {
+    :last-child {
+      td {
+        border-bottom: 0;
+      }
+    }
+  }
+
+  th,
+  td {
+    margin: 0;
+    padding: 0.5rem;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    width: 2.6rem;
+
+    input {
+      background-color: inherit;
+      color: white;
+      border: 0;
+      width: inherit;
+    }
+  }
+}
