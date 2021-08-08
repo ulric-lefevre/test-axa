@@ -7,7 +7,8 @@
   "license": "MIT",
   "scripts": {
     "start-api": "nodemon --exec ts-node server/index.ts",
-    "delay-api": "nodemon --exec ts-node server/index-delay.ts"
+    "delay-api": "nodemon --exec ts-node server/index-delay.ts",
+    "start": "npm run start --prefix ./front"
   },
   "dependencies": {
     "express": "^4.17.1",
